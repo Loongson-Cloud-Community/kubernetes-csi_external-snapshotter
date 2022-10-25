@@ -1,5 +1,5 @@
-FROM gcr.io/distroless/static:latest
-LABEL maintainers="Kubernetes Authors"
+FROM cr.loongnix.cn/library/alpine:3.11
+LABEL maintainers="qiangxuhui@loongson.cn"
 LABEL description="Snapshot Controller"
 ARG binary=./bin/snapshot-controller
 
